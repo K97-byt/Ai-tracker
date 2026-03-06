@@ -1,21 +1,60 @@
-C:\Users\User\Desktop\AI-Tracker>git push -u origin main
-Enumerating objects: 10, done.
-Counting objects: 100% (10/10), done.
-Delta compression using up to 4 threads
-Compressing objects: 100% (8/8), done.
-Writing objects: 100% (9/9), 8.69 KiB | 635.00 KiB/s, done.
-Total 9 (delta 1), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (1/1), done.
-remote: This repository moved. Please use the new location:  
-remote: https://github.com/K97-byt/Ai-tracker.git
-To https://github.com/K97-byt/ai-tracker.git
-80470d1..6628382 main -> main
-branch 'main' set up to track 'origin/main'.
+# AI-Tracker
 
-C:\Users\User\Desktop\AI-Tracker>https://github.com/K97-byt/Ai-tracker
-'https:' is not recognized as an internal or external command,
-operable program or batch file.
+Real-time IMEI-based device tracking system with an interactive React dashboard.
 
-C:\Users\User\Desktop\AI-Tracker>https://github.com/K97-byt/ai-tracker
-'https:' is not recognized as an internal or external command,
-operable program or batch file.
+---
+
+![GitHub Repo Size](https://img.shields.io/github/repo-size/K97-byt/Ai-tracker)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/K97-byt/Ai-tracker)
+![GitHub Issues](https://img.shields.io/github/issues/K97-byt/Ai-tracker)
+
+---
+
+## About
+
+AI-Tracker is a full-stack system that tracks devices in real-time using IMEI numbers. It features:
+
+- Node.js + Express backend API
+- React frontend dashboard
+- Leaflet interactive maps
+- Ability to monitor multiple devices simultaneously
+- Designed as a portfolio-ready, real-world project
+
+---
+
+## Screenshots
+
+Add your screenshots in a folder called `screenshots` and link them here. Example:
+
+![Map View](./screenshots/map.png)
+
+---
+
+## Features
+
+- Add new devices via IMEI
+- Real-time location updates
+- Interactive map markers
+- Backend API ready for expansion
+- Clean, modular code for easy maintenance
+
+---
+
+## Tech Stack
+
+- Node.js / Express
+- React.js
+- Leaflet.js for mapping
+- Axios for API calls
+- JavaScript (ES6+)
+
+---
+
+## Installation / How to Run
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/K97-byt/Ai-tracker.git
+cd AI-Tracker
+```
